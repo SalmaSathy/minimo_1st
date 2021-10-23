@@ -1,0 +1,67 @@
+/*font-family: 'Playfair Display', serif;*/
+
+/*/*font-family: 'Ubuntu', sans-serif;*/
+/*common css start*/
+body{
+	margin:0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common css start*/
+/*header start*/
+.wrapper {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 90%;
+	/*border:1px solid black;*/
+}
+
+.logo {
+	width: 15%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.logo a{
+
+}
+.logo a img{
+
+}
+.menu {
+	width: 70%;
+	/*border:1px solid red;*/
+	float: right;
+}
+.menu ul{
+	float: right;
+
+	}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+	}
+.menu ul li a{
+           color: #000000;
+            text-decoration: none;
+            display: inline-block;
+            padding:9px 25px;
+	}
+.menu ul li: last child a{
+	  padding-right:0 ;
+}
+.menu ul li a: hover{
+
+}	
+/*header end*/
+/*banner start*/
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+
+
+
